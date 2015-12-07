@@ -11,8 +11,6 @@ RUN mkdir -p /opt \
  && ln -sf /opt/$SOLR /opt/solr \
  && rm /tmp/$SOLR.tgz
 
-RUN apt-get -y remove unzip && apt-get autoremove && apt-get clean all
-
 EXPOSE 8983
 
 ADD entrypoint.sh /
