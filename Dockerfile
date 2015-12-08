@@ -1,5 +1,7 @@
 FROM hypriot/rpi-java 
 
+
+ENV DEBIAN_FRONTEND noninteractive
 ENV SOLR_VERSION 5.3.1
 ENV SOLR solr-$SOLR_VERSION
 
