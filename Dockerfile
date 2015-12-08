@@ -1,5 +1,5 @@
 FROM hypriot/rpi-java 
-MAINTAINER SÃbastien Gruchet <gruchet@gmail.com>
+MAINTAINER SÃ©bastien Gruchet <gruchet@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV SOLR_VERSION 5.3.1
